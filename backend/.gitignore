@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite3
+
+# Logs and Temp files
+*.log
+import_test.log
+import_test_u8.log
+output.txt
+migration_results.txt
+test_multipart.py (looks like a scratch script)
+
+# Virtual environment
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node (unexpected but present in backend)
+node_modules/
+package-lock.json
+package.json
